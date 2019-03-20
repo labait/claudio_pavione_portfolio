@@ -1,0 +1,346 @@
+body {
+  background-color: #222222;
+  cursor:none;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.container-fluid {
+  margin:0px;
+  padding:0px;
+}
+
+/* CURSORE */
+
+.cursor{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.cursor:nth-child(1){ background-color: #000000; }
+.cursor:nth-child(2){ background-color: #fff; }
+
+// NAVBAR //
+
+#navbar {
+  display:flex;
+  justify-content: space-between;
+   #logo {
+    margin-top:5%;
+    padding-left: 60px;
+    padding-right: 0px;
+  }
+   #contact {
+    margin-top:5%;
+    text-align: right;
+    padding-left: 0px;
+    padding-right: 60px;
+    a {
+      font-family: Montserrat;
+      color:white;
+      font-size: 0.75rem;
+      letter-spacing: 0.1rem;
+    }
+  }
+}
+
+/*
+
+ANIMATION SLIDE
+
+#slide{
+  padding:0px;
+  position:absolute;
+  width:900px;
+  height:10px;
+  border-radius:5px;
+  background-color: white;
+  margin-top: 8%;
+  margin-left:40%;
+
+}
+
+#slide .active{
+    width: 800px;
+    transition: width 0.5s;
+  }
+
+*/
+
+
+
+// WORKLIST //
+#work-list {
+  height: 100vh;
+  margin-top: 5%;
+  padding-right: 0px;
+  padding-left: 60px;
+  display:flex;
+  justify-content: center;
+  .list{
+    // display:none;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    ul {
+      list-style-type: none;
+      padding:0px;
+      margin: 0px;
+      .margin-top {
+        margin-top:60px;
+        margin-left: 0px;
+      }
+      a {
+        text-decoration: none;
+        color:#4B4B4B;
+        transition: color 1s ease-out;
+      }
+      a:hover {
+        color:white;
+      }
+    }
+  }
+}
+
+// ABOUT ME //
+
+#about-me {
+  padding:0px;
+  margin-top:0%;
+  margin-left:0px;
+  margin-right:0px;
+  .biography {
+    margin-top: 10%;
+    padding-left: 60px;
+    padding-right: 60px;
+    h1 {
+      margin:0px;
+      color:white;
+      font-family: Montserrat;
+      font-weight: bold;
+      letter-spacing: 0.1rem;
+      line-height: 3.5rem;
+      font-size: 2.5rem;
+    }
+    p {
+      color:white;
+      font-family: Montserrat;
+      font-weight: 400;
+      letter-spacing: 0.1rem;
+      line-height: 2.5rem;
+      font-size: 1rem;
+      margin-top:50px;
+    }
+  }
+  .foto {
+    padding: 0px;
+    .img-fluid {
+      max-width:100%;
+      height: auto;
+
+    }
+  }
+}
+
+// FOOTER //
+
+#footer {
+  margin-top: 200px;
+  height: 150px;
+  display: flex;
+  align-content: center;
+  .social {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .contact{
+    text-align: center;
+    .mail {
+      font-family: Montserrat;
+      color:white;
+      font-size: 0.75rem;
+      letter-spacing: 0.1rem;
+    }
+  }
+}
+
+
+
+/* NAVBAR PROGETTO SAN CARLO */
+
+.navbar-progetto-sancarlo{
+  background-color:#98271E;
+}
+
+#close{
+  z-index: 1;
+  position: fixed;
+  margin-left: 50%;
+  margin-top:5%;
+  text-align: right;
+  padding-left: 0px;
+  padding-right: 40px;
+  color:white;
+  a {
+    font-family: Montserrat;
+    color:white;
+    font-size:1rem;
+    letter-spacing: 0.1rem;
+  }
+}
+
+#intro {
+  height: 632px;
+  display: flex;
+  align-items: center;
+  background-color:#98271E;
+  .mockup-mac {
+    margin-top: 5%;
+    padding: 0px;
+  }
+  .intro-text{
+    padding-right: 20px;
+    h1 {
+      margin-bottom: 15px;
+      font-family: Montserrat;
+      font-weight: 700;
+      color:white;
+      font-size:2.5rem;
+      letter-spacing: 0.1rem;
+    }
+    p {
+      font-family: Montserrat;
+      font-weight: 400;
+      color:white;
+      letter-spacing: 0.1rem;
+      font-size: 1rem;
+      line-height: 2.5rem;
+      margin:0px;
+    }
+  }
+}
+
+#title-tipography{
+  margin-top: 200px;
+  .titolo-tipografia {
+    padding-left: 60px;
+    font-family: Montserrat;
+    color:white;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    h1 {
+      position: absolute;
+      top:0px;
+      z-index: -1;
+      font-weight:700;
+      letter-spacing: 0.3rem;
+      font-size: 3rem;
+      opacity: 0.2;
+    }
+    h2 {
+    margin-top: 15px;
+    font-weight:700;
+    }
+  }
+}
+
+#content-tipography {
+  display: flex;
+  text-align: center;
+  .font-playfair-display {
+    margin-top:60px;
+  }
+  .font-muli {
+    margin-top:60px;
+  }
+}
+
+.pagina-home {
+  margin-top:200px;
+  text-align: center;
+  // background-color:#333333;
+  img {
+    margin-top: 20px;
+  }
+}
+
+.pagina-prodotti {
+  margin-top:200px;
+  text-align: center;
+  // background-color:#A0CF71;
+  img {
+    margin-top: 20px;
+  }
+}
+
+.pagina-ricette {
+  margin-top:200px;
+  text-align: center;
+  // background-color:#FAFAFA;
+  img {
+    margin-top: 20px;
+  }
+}
+
+#mobile {
+  display: flex;
+  align-items: center;
+  .mockup-mobile {
+    margin-top: 20%;
+    padding: 0px;
+  }
+  .text-mobile {
+    padding-right: 20px;
+    padding-left: 0px;
+    h1 {
+      margin-bottom: 15px;
+      font-family: Montserrat;
+      font-weight: 700;
+      color:white;
+      font-size:2.5rem;
+      letter-spacing: 0.1rem;
+    }
+    p {
+      font-family: Montserrat;
+      font-weight: 400;
+      color:white;
+      letter-spacing: 0.1rem;
+      font-size: 1rem;
+      line-height: 2.5rem;
+      margin:0px;
+    }
+  }
+}
+
+.next-project {
+  margin-top: 300px;
+  text-align: center;
+
+}
+.next-project:hover{
+  opacity:0.3;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(-30px);
+  }
+  60% {
+    transform: translateX(-15px);
+  }
+}

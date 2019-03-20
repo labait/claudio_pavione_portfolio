@@ -1,0 +1,422 @@
+/* line 1, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+body {
+  background-color: #222222;
+  cursor: none;
+}
+
+/* line 6, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* line 11, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* CURSORE */
+/* line 18, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+.cursor {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* line 26, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+.cursor:nth-child(1) {
+  background-color: #000000;
+}
+
+/* line 27, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+.cursor:nth-child(2) {
+  background-color: #fff;
+}
+
+/* line 31, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 34, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#navbar #logo {
+  margin-top: 5%;
+  padding-left: 60px;
+  padding-right: 0px;
+}
+
+/* line 39, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#navbar #contact {
+  margin-top: 5%;
+  text-align: right;
+  padding-left: 0px;
+  padding-right: 60px;
+}
+
+/* line 44, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#navbar #contact a {
+  font-family: Montserrat;
+  color: white;
+  font-size: 0.75rem;
+  letter-spacing: 0.1rem;
+}
+
+/*
+
+ANIMATION SLIDE
+
+#slide{
+  padding:0px;
+  position:absolute;
+  width:900px;
+  height:10px;
+  border-radius:5px;
+  background-color: white;
+  margin-top: 8%;
+  margin-left:40%;
+
+}
+
+#slide .active{
+    width: 800px;
+    transition: width 0.5s;
+  }
+
+*/
+/* line 79, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#work-list {
+  height: 100vh;
+  margin-top: 5%;
+  padding-right: 0px;
+  padding-left: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 86, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#work-list .list {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+/* line 93, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#work-list .list ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 97, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#work-list .list ul .margin-top {
+  margin-top: 60px;
+  margin-left: 0px;
+}
+
+/* line 101, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#work-list .list ul a {
+  text-decoration: none;
+  color: #4B4B4B;
+  transition: color 1s ease-out;
+}
+
+/* line 106, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#work-list .list ul a:hover {
+  color: white;
+}
+
+/* line 115, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#about-me {
+  padding: 0px;
+  margin-top: 0%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* line 120, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#about-me .biography {
+  margin-top: 10%;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* line 124, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#about-me .biography h1 {
+  margin: 0px;
+  color: white;
+  font-family: Montserrat;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  line-height: 3.5rem;
+  font-size: 2.5rem;
+}
+
+/* line 133, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#about-me .biography p {
+  color: white;
+  font-family: Montserrat;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  line-height: 2.5rem;
+  font-size: 1rem;
+  margin-top: 50px;
+}
+
+/* line 143, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#about-me .foto {
+  padding: 0px;
+}
+
+/* line 145, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#about-me .foto .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 155, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#footer {
+  margin-top: 200px;
+  height: 150px;
+  display: flex;
+  align-content: center;
+}
+
+/* line 160, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#footer .social {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* line 164, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#footer .contact {
+  text-align: center;
+}
+
+/* line 166, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#footer .contact .mail {
+  font-family: Montserrat;
+  color: white;
+  font-size: 0.75rem;
+  letter-spacing: 0.1rem;
+}
+
+/* NAVBAR PROGETTO SAN CARLO */
+/* line 179, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+.navbar-progetto-sancarlo {
+  background-color: #98271E;
+}
+
+/* line 183, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#close {
+  z-index: 1;
+  position: fixed;
+  margin-left: 50%;
+  margin-top: 5%;
+  text-align: right;
+  padding-left: 0px;
+  padding-right: 40px;
+  color: white;
+}
+
+/* line 192, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#close a {
+  font-family: Montserrat;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+/* line 200, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#intro {
+  height: 632px;
+  display: flex;
+  align-items: center;
+  background-color: #98271E;
+}
+
+/* line 205, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#intro .mockup-mac {
+  margin-top: 5%;
+  padding: 0px;
+}
+
+/* line 209, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#intro .intro-text {
+  padding-right: 20px;
+}
+
+/* line 211, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#intro .intro-text h1 {
+  margin-bottom: 15px;
+  font-family: Montserrat;
+  font-weight: 700;
+  color: white;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+
+/* line 219, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#intro .intro-text p {
+  font-family: Montserrat;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  margin: 0px;
+}
+
+/* line 231, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#title-tipography {
+  margin-top: 200px;
+}
+
+/* line 233, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#title-tipography .titolo-tipografia {
+  padding-left: 60px;
+  font-family: Montserrat;
+  color: white;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+}
+
+/* line 239, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#title-tipography .titolo-tipografia h1 {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  font-size: 3rem;
+  opacity: 0.2;
+}
+
+/* line 248, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#title-tipography .titolo-tipografia h2 {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+/* line 255, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#content-tipography {
+  display: flex;
+  text-align: center;
+}
+
+/* line 258, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#content-tipography .font-playfair-display {
+  margin-top: 60px;
+}
+
+/* line 261, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#content-tipography .font-muli {
+  margin-top: 60px;
+}
+
+/* line 266, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+.pagina-home {
+  margin-top: 200px;
+  text-align: center;
+}
+
+/* line 270, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+.pagina-home img {
+  margin-top: 20px;
+}
+
+/* line 275, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+.pagina-prodotti {
+  margin-top: 200px;
+  text-align: center;
+}
+
+/* line 279, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+.pagina-prodotti img {
+  margin-top: 20px;
+}
+
+/* line 284, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+.pagina-ricette {
+  margin-top: 200px;
+  text-align: center;
+}
+
+/* line 288, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+.pagina-ricette img {
+  margin-top: 20px;
+}
+
+/* line 293, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#mobile {
+  display: flex;
+  align-items: center;
+}
+
+/* line 296, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#mobile .mockup-mobile {
+  margin-top: 20%;
+  padding: 0px;
+}
+
+/* line 300, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#mobile .text-mobile {
+  padding-right: 20px;
+  padding-left: 0px;
+}
+
+/* line 303, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#mobile .text-mobile h1 {
+  margin-bottom: 15px;
+  font-family: Montserrat;
+  font-weight: 700;
+  color: white;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+
+/* line 311, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+#mobile .text-mobile p {
+  font-family: Montserrat;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  margin: 0px;
+}
+
+/* line 323, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+.next-project {
+  margin-top: 300px;
+  text-align: center;
+}
+
+/* line 328, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+.next-project:hover {
+  opacity: 0.3;
+}
+
+/* line 332, /Users/claudiopavione/Desktop/portfolio/scss/style.scss */
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(-30px);
+  }
+  60% {
+    transform: translateX(-15px);
+  }
+}
+
+/*# sourceMappingURL=../css/style.map */
